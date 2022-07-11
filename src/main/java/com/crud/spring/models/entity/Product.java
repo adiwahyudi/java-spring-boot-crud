@@ -20,7 +20,6 @@ public class Product implements Serializable {
     @NotEmpty(message = "Description is required")
     private String description;
 
-    @NotEmpty(message = "Price is required")
     private double price;
 
     public Long getId() {
